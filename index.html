@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkBit Edge Corp - Empowering Youth Through Technology</title>
+    <meta name="description" content="ThinkBit Edge Corp empowers underrepresented youth through equitable access to AI and emerging technology education.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://images.unsplash.com/photo-1559027615-afaf36b6ab78?auto=format&fit=crop&w=1350&q=80" as="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <h1>ThinkBit Edge</h1>
+                </div>
+                <nav class="header__nav" id="nav">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link active" data-page="home">Home</a></li>
+                        <li><a href="#programs" class="nav__link" data-page="programs">Programs</a></li>
+                        <li><a href="#partnerships" class="nav__link" data-page="partnerships">Partnerships</a></li>
+                        <li><a href="#about" class="nav__link" data-page="about">About</a></li>
+                        <li><a href="#involvement" class="nav__link" data-page="involvement">Get Involved</a></li>
+                        <li><a href="#contact" class="nav__link" data-page="contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero__background">
+                    <img src="https://images.unsplash.com/photo-1559027615-afaf36b6ab78?auto=format&fit=crop&w=1350&q=80" alt="Diverse youth coding together" loading="lazy">
+                </div>
+                <div class="hero__content">
+                    <div class="container">
+                        <h2 class="hero__title">Empowering underrepresented youth with the skills to thrive in the AI-driven future.</h2>
+                        <p class="hero__subtitle">Through innovative programs, partnerships, and community outreach, ThinkBit Edge aims to bridge the digital divide and foster a diverse community of future leaders.</p>
+                        <div class="hero__actions">
+                            <button class="btn btn--primary btn--lg" data-page="programs">Explore Programs</button>
+                            <button class="btn btn--accent btn--lg" data-page="involvement">Get Involved</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <section class="mission py-16">
+                    <div class="mission__content">
+                        <h3>Our Mission</h3>
+                        <p>ThinkBit Edge Corp is dedicated to empowering youth, especially those from underrepresented groups, by providing equitable access to high-quality education in new technologies, including artificial intelligence (AI). Our purpose is to inspire, educate, and support the next generation of innovators by making learning opportunities in emerging tech accessible, engaging, and inclusive.</p>
+                    </div>
+                </section>
+
+                <section class="highlights py-16">
+                    <h3>Impact Highlights</h3>
+                    <div class="highlights__grid">
+                        <div class="highlight-card">
+                            <div class="highlight-card__icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>1,500+</h4>
+                            <p>Youth served across 5 provinces</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-card__icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h4>3</h4>
+                            <p>Community Tech Hubs launched</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-card__icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>120</h4>
+                            <p>Mentors in our network</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Programs Page -->
+        <section id="programs" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Our Programs</h2>
+                    <p>Comprehensive programs designed to empower youth through technology education</p>
+                </div>
+                
+                <div class="programs__grid">
+                    <div class="program-card card">
+                        <div class="program-card__header">
+                            <div class="program-card__icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h3>TechEdge Academy</h3>
+                            <span class="status status--success">Active</span>
+                        </div>
+                        <div class="program-card__body">
+                            <p>12-week after-school curriculum introducing Python, machine learning and ethical AI to high-schoolers.</p>
+                            <button class="btn btn--primary">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="program-card card">
+                        <div class="program-card__header">
+                            <div class="program-card__icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Community Tech Hubs</h3>
+                            <span class="status status--success">Active</span>
+                        </div>
+                        <div class="program-card__body">
+                            <p>Pop-up computer labs and weekend workshops bringing hands-on robotics and coding to underserved neighbourhoods.</p>
+                            <button class="btn btn--primary">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="program-card card">
+                        <div class="program-card__header">
+                            <div class="program-card__icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <h3>Mentorship Network</h3>
+                            <span class="status status--success">Active</span>
+                        </div>
+                        <div class="program-card__body">
+                            <p>Pairs youth with diverse tech professionals for monthly guidance, project feedback and career exposure.</p>
+                            <button class="btn btn--primary">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="program-card card">
+                        <div class="program-card__header">
+                            <div class="program-card__icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3>Tech4Impact Grants</h3>
+                            <span class="status status--info">Launching Soon</span>
+                        </div>
+                        <div class="program-card__body">
+                            <p>Mini-grants and coaching for youth-led projects that solve local challenges using AI and emerging tech.</p>
+                            <button class="btn btn--primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partnerships Page -->
+        <section id="partnerships" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Partnerships</h2>
+                    <p>Building bridges between communities and industry leaders</p>
+                </div>
+
+                <div class="partnerships__content">
+                    <div class="partnership-info">
+                        <h3>Community & Industry Partners</h3>
+                        <p>Our mission thrives through meaningful partnerships with educational institutions, technology companies, and community organizations. Together, we create pathways for underrepresented youth to access cutting-edge technology education and career opportunities.</p>
+                        
+                        <blockquote class="quote">
+                            <p>"ThinkBit Edge's collaborative approach has transformed how we think about inclusive technology education. Their partnership model creates real impact in our communities."</p>
+                            <cite>— Dr. Sarah Chen, Community Education Director</cite>
+                        </blockquote>
+                    </div>
+
+                    <div class="partner-logos">
+                        <div class="partner-logos__scroll">
+                            <div class="partner-logo">Tech Corp</div>
+                            <div class="partner-logo">Innovation Hub</div>
+                            <div class="partner-logo">Future Labs</div>
+                            <div class="partner-logo">Community College</div>
+                            <div class="partner-logo">Youth Foundation</div>
+                        </div>
+                    </div>
+
+                    <div class="partnership-form card">
+                        <div class="card__body">
+                            <h3>Partnership Inquiry</h3>
+                            <form id="partnership-form">
+                                <div class="form-group">
+                                    <label for="org-name" class="form-label">Organization Name</label>
+                                    <input type="text" id="org-name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email" class="form-label">Contact Email</label>
+                                    <input type="email" id="contact-email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="partnership-type" class="form-label">Partnership Type</label>
+                                    <select id="partnership-type" class="form-control" required>
+                                        <option value="">Select partnership type</option>
+                                        <option value="educational">Educational Institution</option>
+                                        <option value="corporate">Corporate Partner</option>
+                                        <option value="nonprofit">Nonprofit Organization</option>
+                                        <option value="government">Government Agency</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="partnership-message" class="form-label">Message</label>
+                                    <textarea id="partnership-message" class="form-control" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary">Submit Inquiry</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>About ThinkBit Edge</h2>
+                    <p>Our story, vision, and values driving inclusive technology education</p>
+                </div>
+
+                <div class="about__content">
+                    <div class="founder-story">
+                        <h3>Founder Story</h3>
+                        <p>ThinkBit Edge Corp was founded with a simple yet powerful vision: to ensure that every young person, regardless of their background, has access to the tools and knowledge needed to thrive in our increasingly digital world. Our founders recognized that traditional barriers to technology education were leaving too many talented minds behind, particularly those from underrepresented communities.</p>
+                    </div>
+
+                    <div class="values">
+                        <h3>Our Core Values</h3>
+                        <div class="values__grid">
+                            <div class="value-card">
+                                <div class="value-card__icon">
+                                    <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <h4>Equity</h4>
+                                <p>Ensuring fair access to technology education for all youth, regardless of background or circumstances.</p>
+                            </div>
+                            <div class="value-card">
+                                <div class="value-card__icon">
+                                    <i class="fas fa-fist-raised"></i>
+                                </div>
+                                <h4>Empowerment</h4>
+                                <p>Building confidence and skills that enable youth to become leaders in their communities.</p>
+                            </div>
+                            <div class="value-card">
+                                <div class="value-card__icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h4>Innovation</h4>
+                                <p>Embracing cutting-edge approaches to make learning engaging and relevant.</p>
+                            </div>
+                            <div class="value-card">
+                                <div class="value-card__icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h4>Community</h4>
+                                <p>Fostering connections and collaboration that strengthen our collective impact.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <h3>Our Journey</h3>
+                        <div class="timeline__container">
+                            <div class="timeline__item">
+                                <div class="timeline__year">2023</div>
+                                <div class="timeline__content">
+                                    <h4>Foundation</h4>
+                                    <p>ThinkBit Edge incorporated; pilot program reaches 60 students.</p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__year">2024</div>
+                                <div class="timeline__content">
+                                    <h4>Expansion</h4>
+                                    <p>Launched three Community Tech Hubs and Mentorship Network with 120 mentors.</p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__year">2025</div>
+                                <div class="timeline__content">
+                                    <h4>National Recognition</h4>
+                                    <p>Awarded national grant; over 1,500 youth served across 5 provinces.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Involved Page -->
+        <section id="involvement" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Get Involved</h2>
+                    <p>Join us in empowering the next generation of tech leaders</p>
+                </div>
+
+                <div class="involvement__grid">
+                    <div class="involvement-card card">
+                        <div class="involvement-card__icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="card__body">
+                            <h3>Volunteer</h3>
+                            <p>Share your skills and passion by volunteering as a workshop facilitator, mentor, or program assistant.</p>
+                            <button class="btn btn--primary" data-page="contact" data-anchor="volunteer">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="involvement-card card">
+                        <div class="involvement-card__icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="card__body">
+                            <h3>Donate</h3>
+                            <p>Support our mission with a financial contribution that directly impacts youth access to technology education.</p>
+                            <button class="btn btn--primary" data-page="contact" data-anchor="donate">Donate Now</button>
+                        </div>
+                    </div>
+
+                    <div class="involvement-card card">
+                        <div class="involvement-card__icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="card__body">
+                            <h3>Become a Mentor</h3>
+                            <p>Guide and inspire young minds by becoming a mentor in our professional network.</p>
+                            <button class="btn btn--primary" data-page="contact" data-anchor="mentor">Apply Now</button>
+                        </div>
+                    </div>
+
+                    <div class="involvement-card card">
+                        <div class="involvement-card__icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="card__body">
+                            <h3>Host a Workshop</h3>
+                            <p>Bring ThinkBit Edge programming to your community by hosting a workshop or event.</p>
+                            <button class="btn btn--primary" data-page="contact" data-anchor="workshop">Host Event</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h2>Contact Us</h2>
+                    <p>Get in touch to learn more about our programs and opportunities</p>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3>Organization Information</h3>
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@thinkbitedge.org">info@thinkbitedge.org</a>
+                            </div>
+                            <div class="contact__item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+12045550199">+1 (204) 555-0199</a>
+                            </div>
+                            <div class="contact__item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Innovation Drive, Winnipeg, MB</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4>Connect With Us</h4>
+                            <div class="social-links__list">
+                                <a href="https://twitter.com/thinkbitedge" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://linkedin.com/company/thinkbitedge" target="_blank" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://instagram.com/thinkbitedge" target="_blank" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__form card">
+                        <div class="card__body">
+                            <h3>Send us a Message</h3>
+                            <form id="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select id="subject" class="form-control" required>
+                                        <option value="">Select a subject</option>
+                                        <option value="volunteer">Volunteer Opportunity</option>
+                                        <option value="donate">Donation Inquiry</option>
+                                        <option value="mentor">Become a Mentor</option>
+                                        <option value="workshop">Host a Workshop</option>
+                                        <option value="general">General Inquiry</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4>ThinkBit Edge</h4>
+                    <p>Empowering underrepresented youth through equitable access to AI and emerging technology education.</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#programs" data-page="programs">Programs</a></li>
+                        <li><a href="#partnerships" data-page="partnerships">Partnerships</a></li>
+                        <li><a href="#about" data-page="about">About</a></li>
+                        <li><a href="#involvement" data-page="involvement">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Connect</h4>
+                    <div class="footer__social">
+                        <a href="https://twitter.com/thinkbitedge" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/thinkbitedge" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/thinkbitedge" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 ThinkBit Edge Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
